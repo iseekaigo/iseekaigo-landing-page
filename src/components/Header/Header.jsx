@@ -66,11 +66,11 @@ export default function Header() {
             )}
           </Nav>
           <div className="centerText">
-            <h1 className="title">
-              Step into
+            <h2 className="title">
+              Experience Beyond your Reality
               <br />
-              Dynamic Digital Universe
-            </h1>
+              Step into Dynamic Worlds
+            </h2>
             {/* <hr className="vertical-line" /> */}
           </div>
         </div>

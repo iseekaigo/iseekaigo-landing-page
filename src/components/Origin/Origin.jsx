@@ -27,6 +27,7 @@ export default function Origin() {
         <div className="flex flex-col items-center">
           <div className="text text-center w-full mb-8">
             <h1 className="text-3xl md:text-5xl lg:text-[70px] py-4">Explore, Engage, Evolve!</h1>
+            <h3>Enter the Worlds of ISEEKAI GO, where augmented reality, AI, and blockchain merge to deliver an unforgettable experience. Capture and trade rare NFT-based characters, forge deep connections through AI-driven stories, and unlock exclusive rewards by supporting local businesses—all while discovering a world of endless possibilities right in your neighborhood.</h3>
           </div>
           <div className="w-full flex justify-center relative" style={{ paddingTop: isMobile ? '177.78%' : '56.25%' }}>
             <iframe

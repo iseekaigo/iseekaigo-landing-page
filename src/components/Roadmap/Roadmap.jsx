@@ -3,33 +3,33 @@ import { Container } from "react-bootstrap";
 
 const features = [
   {
-    title: "AI-Powered Servants",
+    title: "AI Characters and Otherworldly Servants",
     description:
-      "Interact with uniquely designed AI-driven characters that evolve through meaningful conversations. Build relationships that influence their abilities and unlock unique storylines.",
+      "Engage with advanced AI-powered characters that grow and adapt based on your interactions. Shape their personalities, influence their skill sets, and unlock deep, unique story arcs that evolve with every decision you make.",
     imagePosition: "left",
   },
   {
-    title: "Explore The AR-World",
+    title: "Immersive AR Worlds Explorations",
     description:
-      "Embark on adventures in a richly detailed AR world where real-life landmarks transform into quest locations. Engage with your surroundings as you solve puzzles and discover hidden treasures.",
+      "Step into a dynamic augmented reality worlds where everyday locations become epic quest Worlds. Solve intricate puzzles, uncover hidden relics, and transform the world around you into your playground, blending reality and fantasy like never before.",
     imagePosition: "right",
   },
   {
-    title: "Community Engagement",
+    title: "Dynamic Community Engagement",
     description:
-      "Build or join communities to collaborate on boss raids, share tips, and trade NFT servants. Participate in community events that enhance social interaction and teamwork.",
+      "Forge alliances, join forces for epic boss battles, and trade NFT companions within thriving community networks. Compete or collaborate in live events, share strategies, and enhance your social standing in a world where teamwork makes all the difference.",
     imagePosition: "left",
   },
   {
-    title: "Servant Hunting and Gacha System",
+    title: "Servant Hunting and Gacha Mechanics",
     description:
       "Hunt for unique NFT servants scattered throughout the AR world. Players can also summon characters through a dynamic gacha system, ensuring a blend of exploration and strategy.",
     imagePosition: "right",
   },
   {
-    title: "Local Business Partnerships",
+    title: "Seamless Local Business Integration",
     description:
-      "Discover and engage with local businesses and points of interest through the app. Players can participate in special events and receive promotions, including discounts on products, merchandise, and food, bridging the gap between the game and real life.",
+      "Unlock real-world rewards by engaging with local businesses and points of interest within the game in AR mode. Participate in exclusive in-app events and redeem special offers, including discounts on products and food, bridging in-game success with tangible real-world benefits.",
     imagePosition: "left",
   },
 ];
