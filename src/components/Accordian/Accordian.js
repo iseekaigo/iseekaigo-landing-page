@@ -10,7 +10,7 @@ export default function Accordian() {
           <Accordion.Header>When will the game be released?</Accordion.Header>
           <Accordion.Body className="white-body">
             The game still doesn't have any fixed released date. But we plan to release the 1.0 version
-            around summer 2025. Stay tuned for further updates!
+            around spring 2025. Stay tuned for further updates!
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1" className="faq-accordian-item">
