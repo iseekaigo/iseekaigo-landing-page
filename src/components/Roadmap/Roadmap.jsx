@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import { Container } from "react-bootstrap";
-import "./Roadmap.css"; 
 
 // Importing images from the assets folder
 import feature1 from "../../assets/feature1.jpg";
