@@ -18,8 +18,8 @@ export default function Origin() {
   }, []);
 
   const videoSrc = isMobile
-    ? "https://www.youtube.com/embed/Qd6NAgU2fAI?autoplay=1&loop=1&controls=0&showinfo=0&modestbranding=1&mute=1"
-    : "https://www.youtube.com/embed/McKlm_o2qlA?autoplay=1&loop=1&playlist=McKlm_o2qlA&controls=0&showinfo=0&modestbranding=1&mute=1";
+    ? "https://www.youtube.com/embed/B444ok2HT9g?autoplay=1&loop=1&controls=0&showinfo=0&modestbranding=1&mute=1"
+    : "https://www.youtube.com/embed/B444ok2HT9g?autoplay=1&loop=1&playlist=McKlm_o2qlA&controls=0&showinfo=0&modestbranding=1&mute=1";
 
   return (
     <section className="bg-[#061829] text-white py-32 px-4 min-h-screen flex items-center"> 
