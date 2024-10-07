@@ -14,7 +14,7 @@ export default function Home() {
         <Header />
         <Origin />
         <Roadmap />
-        <TrustedBy />
+        {/* <TrustedBy /> */}
         <Faq />
         <Footer />
       </main>
