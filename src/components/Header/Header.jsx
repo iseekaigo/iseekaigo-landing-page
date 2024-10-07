@@ -36,6 +36,15 @@ export default function Header() {
     setToggle(!toggle);
   };
 
+  const handleConnectWallet = (e) => {
+    e.preventDefault();
+    // Open the new window and focus on it
+    const newWindow = window.open("https://xpertspedia.com/solana-wallet-app/", "_blank");
+    if (newWindow) {
+      newWindow.focus();
+    }
+  };
+
   return (
     <div id="header">
       <Container>
@@ -58,7 +67,9 @@ export default function Header() {
               </div>
               <div className="btns">
                 {/* <button className="btn btn-mint">Sign In</button> */}
-                <button className="btn btn-connect">Connect Wallet</button>
+                <button className="btn btn-connect" onClick={handleConnectWallet}>
+                  Connect Wallet
+                </button>
               </div>
             </ToggleSwitch>
             {toggle && (
