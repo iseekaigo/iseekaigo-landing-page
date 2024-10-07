@@ -3,11 +3,11 @@ import { Container } from "react-bootstrap";
 import "./Roadmap.css"; 
 
 // Importing images from the assets folder
-import feature1 from "../assets/feature1.jpg";
-import feature2 from "../assets/feature2.jpg";
-import feature3 from "../assets/feature3.jpg";
-import feature4 from "../assets/feature4.jpg";
-import feature5 from "../assets/feature5.jpg";
+import feature1 from "../../assets/feature1.jpg";
+import feature2 from "../../assets/feature2.jpg";
+import feature3 from "../../assets/feature3.jpg";
+import feature4 from "../../assets/feature4.jpg";
+import feature5 from "../../assets/feature5.jpg";
 
 const features = [
   {
