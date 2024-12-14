@@ -2,7 +2,7 @@
   "name": "iseekaigo",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://www.xpertspedia.com/iseekaigo/",
+  "homepage": "/",
   "dependencies": {
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.1",
