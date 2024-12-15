@@ -3,8 +3,8 @@
 import React, { useState, useEffect } from "react";
 import "./Header.css";
 import { Nav, Container } from "react-bootstrap";
-import styled from "styled-components";
 import Sidebar from "../Sidebar/Sidebar";
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 export default function Header() {
   const [toggle, setToggle] = useState(false);
@@ -51,11 +51,12 @@ export default function Header() {
                 <img src="/assets/closeburger.png" alt="toggle" onClick={toggleChange} />
               )}
             </div>
-            <div className="btns">
+            <ConnectButton  />
+            {/* <div className="btns">
               <button className="btn btn-connect" onClick={handleConnectWallet}>
                 Connect Wallet
               </button>
-            </div>
+            </div> */}
             {toggle && (
               <Sidebar setToggle={setToggle} toggleChange={toggleChange} />
             )}
