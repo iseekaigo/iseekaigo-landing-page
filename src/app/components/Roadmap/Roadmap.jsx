@@ -65,7 +65,10 @@ export default function Roadmap() {
       }
     );
 
-    featureRefs.current.forEach((ref) => {
+    // Save the ref values to a variable
+    const refs = featureRefs.current;
+
+    refs.forEach((ref) => {
       if (ref) {
         observer.observe(ref);
       }
@@ -73,11 +76,9 @@ export default function Roadmap() {
 
     // Cleanup
     return () => {
-      if (featureRefs.current) {
-        featureRefs.current.forEach((ref) => {
-          if (ref) observer.unobserve(ref);
-        });
-      }
+      refs.forEach((ref) => {
+        if (ref) observer.unobserve(ref);
+      });
     };
   }, []);
 

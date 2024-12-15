@@ -19,14 +19,14 @@ export default function Header() {
     setToggle(!toggle);
   };
 
-  const handleConnectWallet = (e) => {
-    e.preventDefault();
-    // Open the new window and focus on it
-    const newWindow = window.open("https://xpertspedia.com/solana-wallet-app/", "_blank");
-    if (newWindow) {
-      newWindow.focus();
-    }
-  };
+  // const handleConnectWallet = (e) => {
+  //   e.preventDefault();
+  //   // Open the new window and focus on it
+  //   const newWindow = window.open("https://xpertspedia.com/solana-wallet-app/", "_blank");
+  //   if (newWindow) {
+  //     newWindow.focus();
+  //   }
+  // };
 
   if (!isMounted) {
     return null; // Avoid rendering on server-side

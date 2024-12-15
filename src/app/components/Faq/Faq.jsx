@@ -15,7 +15,7 @@ export default function Faq() {
               Frequently Asked Questions
             </h1>
             <h2 className="text-sm md:text-base lg:text-lg text-white opacity-50">
-              Can't find what you are looking for? email us at iseekaigocontact@gmail.com!
+              Can not find what you are looking for? email us at iseekaigocontact@gmail.com!
             </h2>
           </div>
         </div>
