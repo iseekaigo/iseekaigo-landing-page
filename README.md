@@ -48,6 +48,11 @@ iseekaigo/
 └── yarn.lock or package-lock.json
 ```
 
+## Older Version
+
+- Since v1.2.0 We refactored iseekaigo website from react to next and deployed it on firebase.
+- To get older version v1.1.1 (stable react js) version. You can get it from here: https://github.com/iseekaigo/iseekaigo-landing-page/releases/tag/v1.1.1
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
