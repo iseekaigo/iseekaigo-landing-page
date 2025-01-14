@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "ISEEKAIGO",
-  description: "Experience Beyond Reality, Step into Dynamic Worlds",
+  description: "Connecting Web2 to Web3 with AI Agents & AR Gaming Experiences",
 };
 
 export default function RootLayout({

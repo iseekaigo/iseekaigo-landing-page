@@ -77,8 +77,8 @@
 }
 
 #header .content .centerText .title {
-  font-size: clamp(4rem, 5vw, 106px);
-  line-height: 10rem;
+  font-size: clamp(4rem, 5vw, 72px);
+  line-height: auto;
   transition: text-shadow 0.3s ease-in-out;
 }
 
