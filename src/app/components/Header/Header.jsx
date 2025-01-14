@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from "react";
 import "./Header.css";
 import { Nav, Container } from "react-bootstrap";
-import Sidebar from "../Sidebar/Sidebar";
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 export default function Header() {
@@ -18,15 +17,6 @@ export default function Header() {
     e.preventDefault();
     setToggle(!toggle);
   };
-
-  // const handleConnectWallet = (e) => {
-  //   e.preventDefault();
-  //   // Open the new window and focus on it
-  //   const newWindow = window.open("https://xpertspedia.com/solana-wallet-app/", "_blank");
-  //   if (newWindow) {
-  //     newWindow.focus();
-  //   }
-  // };
 
   if (!isMounted) {
     return null; // Avoid rendering on server-side
@@ -52,14 +42,6 @@ export default function Header() {
               )}
             </div>
             <ConnectButton  />
-            {/* <div className="btns">
-              <button className="btn btn-connect" onClick={handleConnectWallet}>
-                Connect Wallet
-              </button>
-            </div> */}
-            {toggle && (
-              <Sidebar setToggle={setToggle} toggleChange={toggleChange} />
-            )}
           </Nav>
           <div className="centerText">
             <h2 className="title">

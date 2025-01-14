@@ -15,7 +15,7 @@ export default function Footer() {
             />
           </div>
           <p className="footer-text">
-            ISEEKAIGO Project. All Rights Reserved 2024.
+            ISEEKAIGO Project. All Rights Reserved 2025
           </p>
         </div>
       </Container>
